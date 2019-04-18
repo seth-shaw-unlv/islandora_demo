@@ -3,6 +3,7 @@ description: 'A functional example that can be used to learn how content modelin
 type: module
 core: 8.x
 dependencies:
+  - block
   - comment
   - content_translation
   - context
@@ -34,4 +35,6 @@ dependencies:
   - text
   - user
   - views
+  - search_api
 package: Islandora
+
