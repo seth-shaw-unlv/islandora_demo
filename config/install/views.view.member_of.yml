@@ -5,7 +5,7 @@ dependencies:
     - field.storage.media.field_media_image
     - media.type.image
   module:
-    - image
+    - islandora
     - media
     - node
     - taxonomy
@@ -134,7 +134,7 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: islandora_image
           settings:
             image_style: ''
             image_link: content
@@ -365,12 +365,15 @@ display:
   children_block:
     display_plugin: block
     id: children_block
-    display_title: 'Children Block'
+    display_title: 'Members Block'
     position: 1
     display_options:
       display_extenders: {  }
-      display_description: 'Block displaying children of the current node.'
+      display_description: 'Block displaying members of the current node.'
       block_hide_empty: true
+      title: Members
+      defaults:
+        title: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -385,12 +388,12 @@ display:
   siblings_block:
     display_plugin: block
     id: siblings_block
-    display_title: 'Siblings Block'
+    display_title: 'Peers Block'
     position: 3
     display_options:
       display_extenders: {  }
-      display_description: 'Displays all the siblings (and self) of the current node.'
-      title: Siblings
+      display_description: 'Displays all the nodes that belong to the same collection (peers) as this node.'
+      title: Peers
       defaults:
         title: false
         relationships: false
@@ -540,14 +543,11 @@ display:
           1: AND
       block_hide_empty: true
       style:
-        type: html_list
+        type: default
         options:
           grouping: {  }
           row_class: ''
           default_row_class: true
-          type: ol
-          wrapper_class: item-list
-          class: ''
       row:
         type: fields
         options:

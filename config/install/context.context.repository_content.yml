@@ -43,4 +43,25 @@ reactions:
     id: alter_jsonld_type
     source_field: field_model
     saved: false
+  blocks:
+    blocks:
+      2059e5dc-59ab-4ba1-a63e-1a90e77c1c40:
+        id: 'views_block:member_of-siblings_block'
+        label: ''
+        provider: views
+        label_display: visible
+        views_label: ''
+        items_per_page: none
+        region: sidebar_second
+        weight: '0'
+        context_mapping: {  }
+        theme: carapace
+        css_class: ''
+        unique: 0
+        context_id: repository_content
+        uuid: 2059e5dc-59ab-4ba1-a63e-1a90e77c1c40
+    id: blocks
+    saved: false
+    uuid: 1ecc5868-62d6-4dcc-a440-2a0a0e320c78
+    include_default_blocks: 0
 weight: 0
