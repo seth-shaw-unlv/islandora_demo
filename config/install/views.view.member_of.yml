@@ -58,10 +58,10 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: 'â€¹ Previous'
-            next: 'Next â€º'
-            first: 'Â« First'
-            last: 'Last Â»'
+            previous: '« Previous'
+            next: 'Next »'
+            first: '«« First'
+            last: 'Last »»'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -563,8 +563,8 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: 'â€¹ Previous'
-            next: 'More â€º'
+            previous: '« Previous'
+            next: 'More »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
