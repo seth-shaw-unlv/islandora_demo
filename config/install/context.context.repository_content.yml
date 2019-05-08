@@ -63,5 +63,5 @@ reactions:
     id: blocks
     saved: false
     uuid: 1ecc5868-62d6-4dcc-a440-2a0a0e320c78
-    include_default_blocks: 0
+    include_default_blocks: 1
 weight: 0
