@@ -385,9 +385,9 @@ display:
       tags:
         - 'config:field.storage.media.field_media_image'
         - extensions
-  siblings_block:
+  peers_block:
     display_plugin: block
-    id: siblings_block
+    id: peers_block
     display_title: 'Peers Block'
     position: 3
     display_options:

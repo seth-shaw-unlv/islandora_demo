@@ -46,7 +46,7 @@ reactions:
   blocks:
     blocks:
       2059e5dc-59ab-4ba1-a63e-1a90e77c1c40:
-        id: 'views_block:member_of-siblings_block'
+        id: 'views_block:member_of-peers_block'
         label: ''
         provider: views
         label_display: visible
